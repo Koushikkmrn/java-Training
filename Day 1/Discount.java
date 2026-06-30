@@ -16,6 +16,5 @@ public class Discount{
             bill=p;
         }
         System.out.println("amount payable: $ "+bill);
-
         
                 }     }
