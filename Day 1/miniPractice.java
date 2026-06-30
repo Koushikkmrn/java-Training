@@ -3,7 +3,7 @@
  * Topic: Combining variables, loops, conditions, and arrays
  * A simple program to find the highest mark from an array of student marks
  */
-public class MiniPractice {
+public class miniPractice {
     public static void main(String[] args) {
         int[] marks = {78, 92, 65, 88, 95, 70};
 

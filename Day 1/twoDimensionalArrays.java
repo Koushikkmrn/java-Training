@@ -2,7 +2,7 @@
  * 10_TwoDimensionalArrays.java
  * Topic: 2D arrays (array of arrays / grid)
  */
-public class TwoDimensionalArrays {
+public class twoDimensionalArrays {
     public static void main(String[] args) {
         // 2D array representing a 3x3 grid
         int[][] matrix = {

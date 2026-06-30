@@ -1,7 +1,4 @@
-/*
- * 04_IfElse.java
- * Topic: Conditional statements (if, else if, else)
- */
+
 public class IfElse {
     public static void main(String[] args) {
         int marks = 75;

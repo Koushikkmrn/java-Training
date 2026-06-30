@@ -2,7 +2,7 @@
  * 03_Operators.java
  * Topic: Arithmetic, comparison, and logical operators
  */
-public class Operators {
+public class operators {
     public static void main(String[] args) {
         int a = 10;
         int b = 3;

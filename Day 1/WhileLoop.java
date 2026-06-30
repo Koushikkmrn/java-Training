@@ -1,7 +1,4 @@
-/*
- * 07_WhileLoop.java
- * Topic: While loop and do-while loop
- */
+
 public class WhileLoop {
     public static void main(String[] args) {
         // While loop example

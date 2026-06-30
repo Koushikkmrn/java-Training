@@ -2,7 +2,7 @@
  * 02_VariablesAndDataTypes.java
  * Topic: Variables and basic data types
  */
-public class VariablesAndDataTypes {
+public class variablesAndDataTypes {
     public static void main(String[] args) {
         int age = 20;
         double price = 19.99;

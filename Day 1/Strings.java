@@ -1,7 +1,4 @@
-/*
- * 09_Strings.java
- * Topic: Basic String operations
- */
+
 public class Strings {
     public static void main(String[] args) {
         String name = "Chittu Kumar";

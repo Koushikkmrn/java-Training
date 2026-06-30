@@ -1,7 +1,4 @@
-/*
- * 08_Arrays.java
- * Topic: Arrays - storing multiple values
- */
+
 public class Arrays {
     public static void main(String[] args) {
         // Declaring and initializing an array

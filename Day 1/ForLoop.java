@@ -1,7 +1,4 @@
-/*
- * 06_ForLoop.java
- * Topic: For loop
- */
+
 public class ForLoop {
     public static void main(String[] args) {
         // Print numbers 1 to 5

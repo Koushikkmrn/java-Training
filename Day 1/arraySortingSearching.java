@@ -2,7 +2,7 @@
  * 11_ArraySortingSearching.java
  * Topic: Sorting and searching an array (basic logic)
  */
-public class ArraySortingSearching {
+public class arraySortingSearching {
     public static void main(String[] args) {
         int[] numbers = {50, 20, 40, 10, 30};
 

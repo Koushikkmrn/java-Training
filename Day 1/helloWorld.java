@@ -2,7 +2,7 @@
  * 01_HelloWorld.java
  * Topic: Basic Java program structure
  */
-public class HelloWorld {
+public class helloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         System.out.println("Welcome to Java programming");
