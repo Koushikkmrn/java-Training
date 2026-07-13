@@ -8,7 +8,7 @@ public class operators {
         int b = 3;
 
         // Arithmetic operators
-        System.out.println("a + b = " + (a + b));
+        System.out.println("a + badd = " + (a + b));
         System.out.println("a - b = " + (a - b));
         System.out.println("a * b = " + (a * b));
         System.out.println("a / b = " + (a / b));
