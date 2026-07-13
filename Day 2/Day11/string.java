@@ -16,7 +16,7 @@ class Main{
             
             
             
-            int i=0;i<str.length;i++){
+            it int i=0;i<str.length;i++){
             if(str.charAt(i)==key){
                 System.out.println("true");
             }
