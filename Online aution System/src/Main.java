@@ -35,7 +35,7 @@ public class Main {
             System.out.println("1. Admin Login");
             System.out.println("2. Exit");
             System.out.print("Enter choice: ");
-            int choice = Integer.parseInt(scanner.nextLine().trim());
+            int choice = readInt();
 
             switch (choice) {
                 case 1:
@@ -89,7 +89,7 @@ public class Main {
             System.out.println("3. Logout");
             System.out.println("4. Exit");
             System.out.print("Enter choice: ");
-            int choice = Integer.parseInt(scanner.nextLine().trim());
+            int choice = readInt();
 
             switch (choice) {
                 case 1:
@@ -121,7 +121,7 @@ public class Main {
         System.out.print("Description: ");
         String description = scanner.nextLine().trim();
         System.out.print("Starting Price: Rs.");
-        double startingPrice = Double.parseDouble(scanner.nextLine().trim());
+        double startingPrice = readDouble();
 
         Auction auction = auctionService.createAuction(itemName, description, startingPrice);
 
@@ -148,6 +148,28 @@ public class Main {
                     + " | Highest Bid: Rs." + auction.getCurrentHighestBid()
                     + (auction.getCurrentHighestBidder() != null ? " by " + auction.getCurrentHighestBidder().getName() : "")
             );
+        }
+    }
+
+    private static int readInt() {
+        while (true) {
+            String line = scanner.nextLine().trim();
+            try {
+                return Integer.parseInt(line);
+            } catch (NumberFormatException e) {
+                System.out.print("Invalid input, enter a number: ");
+            }
+        }
+    }
+
+    private static double readDouble() {
+        while (true) {
+            String line = scanner.nextLine().trim();
+            try {
+                return Double.parseDouble(line);
+            } catch (NumberFormatException e) {
+                System.out.print("Invalid input, enter a valid amount: ");
+            }
         }
     }
 }
